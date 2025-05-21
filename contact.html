@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .socialc {
+            position: absolute;
+            left: 570px;
+            padding: 20px;
+            font-size: 20px;
+        }
+        .socialc i {
+            margin: 0 10px;
+            font-size: 30px;
+            color: #000;
+            
+        }
+        .socialc h3{
+            margin-left: 50px;
+        }
+        .socialc i:hover {
+            color: #007bff;
+            transition: 0.3s;
+            font-size: 30px;
+        }
+        .contact #service{
+            width: 250px;
+            height: 50px;
+            border-radius: 25px;
+            border: 2px solid black;
+            padding-left: 20px;
+            font-size: 20px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+     <div class="con">
+        <h1>Portfolio</h1>
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+        <a href="serivices.html">sevices</a>
+    </div>
+    <div class="contact">
+        <h1>Contact Me</h1>
+        <form action="">
+            <input id="txt" type="text" placeholder="Name" required> <br><br>
+            <input id="email" type="email" placeholder="Email" required><br><br>
+            <input id="phone" type="tel" placeholder="Phone" required><br><br>
+            <select id="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option value="web-development">Web Development</option>
+                <option value="ui-ux-design">UI/UX Design</option>
+                <option value="seo">SEO</option>
+                <option value="consulting">Consulting</option>
+                <option value="cyber-security">Cyber Security</option>
+                <option value="hardware-engineering">Hardware Engineering</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="socialc">
+        <h3>Follow me on: </h3> <br>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>
